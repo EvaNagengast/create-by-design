@@ -46,14 +46,10 @@ body {
 
 /* main */
 .showcase {
-  margin: 144px;
+  margin: 45px;
 }
-img {
-  height: 280px;
-  object-fit: cover;
-}
-.imgshort{  width: 300px;}
-.imgmid{  width: 480px;}
-.imgwide{
-    width: 470px;
+.img-fluid{
+height: 280px;
+min-width: 100%;
+object-fit: cover;
 }
