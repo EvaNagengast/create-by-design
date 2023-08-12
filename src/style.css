@@ -52,4 +52,6 @@ body {
 height: 280px;
 min-width: 100%;
 object-fit: cover;
+filter: grayscale(1);
 }
+
