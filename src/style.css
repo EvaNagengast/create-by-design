@@ -1,3 +1,47 @@
-h1{
-    color: rebeccapurple;
+:root {
+  --buttonColor: #272142;
+  --backgroundColor: #202020;
+  --headingFontFamily: "Montserrat", sans-serif;
+  
+}
+/* body */
+body{
+font-family:  "Roboto", sans-serif;
+}
+/*  */
+.hero h1 {
+ 
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+  font-stretch: 200% !;
+}
+.hero p {
+
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+.hero h2 {
+
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  max-width: 460px;
+  margin: 25px auto 48px;
+}
+.hero a {
+  font-family: var(--headingFontFamily);
+  font-size: 14px;
+  font-weight: 700;
+  background-color: white;
+  color: var(--buttonColor);
+  text-decoration: none;
+  padding: 18px 40px;
+  border-radius: 50px;
+}
+.hero {
+  background-image: url("/pigeons/pigeon19.jpg");
+  text-align: center;
+  padding: 140px 40px 100px 40px;
 }
