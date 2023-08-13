@@ -46,7 +46,8 @@ body {
 
 /* main */
 .showcase {
-  margin: 45px;
+  margin: 100px auto;
+  
 }
 .img-fluid{
 height: 280px;
@@ -54,4 +55,5 @@ min-width: 100%;
 object-fit: cover;
 filter: grayscale(1);
 }
+
 
