@@ -15,12 +15,14 @@ body {
   font-size: 72px;
   font-weight: 700;
   color: white;
-  font-stretch: 200% !;
+  font-stretch: 200%;
+  letter-spacing: 10px;
 }
 .hero p {
   font-size: 24px;
   font-weight: 700;
   color: white;
+  letter-spacing: 3px;
 }
 .hero h2 {
   font-size: 18px;
@@ -86,36 +88,68 @@ body {
 /* 
 .heroine
 .heroine
-.heroine
-.heroine
-.heroine
 
 
+
+filter: contrast(121%);
+filter:  grayscale(121%);
+filter: hue-rotate(55deg);
+filter:  brightness(128%) contrast(121%) grayscale(121%) hue-rotate(55deg) invert(8%) saturate(107%);
 */
+.heroine {
+  background-size: cover;
+  padding: 140px 0 100px 0;
+  margin: 0 0 0 0;
+}
+.heroine .profilepicture {
+  width: 100%;
+  filter: grayscale(1);
+}
+/* right */
+.heroine h1 {
+  margin-top: 30px;
+}
 .heroine h1,
 h5 {
   font-weight: 700;
   color: var(--highlightcolor);
   font-size: 18px;
+  letter-spacing: 0.1em;
 }
 .heroine h2 {
   font-weight: 700;
-  font-size: 75px;
+  font-size: 64px;
+  letter-spacing: 9px;
+  margin: 38px 0 45px 0;
 }
-p {
+.heroine p {
   font-weight: 400;
   font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  letter-spacing: 0.1em;
+}
+/* socials */
+
+.heroine .fa-brands {
+  margin: 0 0 66px 30px;
 }
 
 .heroine .pigeonlogo {
-  height: 64px;
+  height: 40px;
+  margin-right: 20px;
+  filter: brightness(80%) hue-rotate(312deg);
 }
 .favpigeon {
+  margin: 32px 0 67px 0;
+  width: fit-content;
+  padding: 10px 20px 10px 20px;
   background-color: #2d2727;
-  
+  font-size: 18px;
+  font-weight: 700;
 }
 .heroine a {
-    font-family: var(--headingFontFamily);
+  font-family: var(--headingFontFamily);
   font-size: 14px;
   font-weight: 700;
   background-color: white;
@@ -123,11 +157,22 @@ p {
   text-decoration: none;
   padding: 18px 40px;
   border-radius: 50px;
+  margin-bottom: 280px;
+}
+.heroine .contactButton {
+  margin-bottom: 20px;
 }
 /* heroine showcase */
 .heroineShowcase img {
   filter: grayscale(1);
-  height: 280px
+  height: 280px;
+  margin-bottom: 200px;
+  object-fit: cover;
+  min-width: 100%;
+
+}
+.showcaseImage {
+  margin-left:20px;
 }
 
 /*  */
