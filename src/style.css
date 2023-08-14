@@ -1,12 +1,14 @@
 :root {
   --buttonColor: #272142;
-  --backgroundColor: #202020;
+  --backgroundColor: #1b1b1b;
+  --highlightcolor: #f65282;
   --headingFontFamily: "Montserrat", sans-serif;
 }
 /* body */
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--backgroundColor);
+  color: white;
 }
 /* hero */
 .hero h1 {
@@ -23,7 +25,7 @@ body {
 .hero h2 {
   font-size: 18px;
   font-weight: 400;
-  color: white;
+
   max-width: 460px;
   margin: 25px auto 48px;
 }
@@ -45,14 +47,14 @@ body {
 }
 
 /* showcase */
-.showcase {
+.heroShowcase {
   margin: 100px auto;
 }
 .showcaseImage {
   margin-left: 8px;
   margin-right: 8px;
 }
-.img-fluid {
+.heroShowcase .img-fluid {
   height: 280px;
   min-width: 100%;
   object-fit: cover;
@@ -76,6 +78,57 @@ body {
   padding: 10px 24px;
   border-radius: 50px;
 }
+/*  */
+/*  */
+/*  */
+/*  */
+/* heroine  */
+/* 
+.heroine
+.heroine
+.heroine
+.heroine
+.heroine
+
+
+*/
+.heroine h1,
+h5 {
+  font-weight: 700;
+  color: var(--highlightcolor);
+  font-size: 18px;
+}
+.heroine h2 {
+  font-weight: 700;
+  font-size: 75px;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.heroine .pigeonlogo {
+  height: 64px;
+}
+.favpigeon {
+  background-color: #2d2727;
+  
+}
+.heroine a {
+    font-family: var(--headingFontFamily);
+  font-size: 14px;
+  font-weight: 700;
+  background-color: white;
+  color: var(--buttonColor);
+  text-decoration: none;
+  padding: 18px 40px;
+  border-radius: 50px;
+}
+/* heroine showcase */
+.heroineShowcase img {
+  filter: grayscale(1);
+  height: 280px
+}
 
 /*  */
 
@@ -84,7 +137,7 @@ body {
     margin-left: 4px;
     margin-right: 4px;
   }
-  .showcase {
+  .heroShowcase {
     margin: 50px auto;
   }
 }
@@ -92,32 +145,29 @@ body {
   .showcaseImage {
     margin-left: 0;
   }
-  .showcase {
+  .heroShowcase {
     margin: 20px auto;
   }
 }
-@media(min-width: 500px) and (max-width: 1000px)
-{
+/*  */
+@media (min-width: 500px) and (max-width: 1000px) {
   .hero {
-    padding: 90px 40px 120px 40px;}
-  
-
-
+    padding: 90px 40px 120px 40px;
+  }
 }
 @media (max-width: 500px) {
-   .hero  h1 {
+  .hero h1 {
     font-size: 56px;
   }
-    .hero h2 {
+  .hero h2 {
     font-size: 14px;
   }
-   .hero p {
+  .hero p {
     font-size: 20px;
   }
-   .hero a {
+  .hero a {
     font-size: 12px;
-      padding: 15px 26px;
-
+    padding: 15px 26px;
   }
   .hero {
     padding: 65px 0px 45px 0px;
