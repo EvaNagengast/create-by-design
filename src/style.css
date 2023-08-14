@@ -10,14 +10,16 @@ body {
   background-color: var(--backgroundColor);
   color: white;
 }
-/* hero */
-.hero h1 {
+
+.headline {
   font-size: 72px;
   font-weight: 700;
   color: white;
   font-stretch: 200%;
   letter-spacing: 10px;
 }
+/* hero */
+
 .hero p {
   font-size: 24px;
   font-weight: 700;
@@ -49,14 +51,14 @@ body {
 }
 
 /* showcase */
-.heroShowcase {
+.showcase {
   margin: 100px auto;
 }
 .showcaseImage {
   margin-left: 8px;
   margin-right: 8px;
 }
-.heroShowcase .img-fluid {
+.showcase .img-fluid {
   height: 280px;
   min-width: 100%;
   object-fit: cover;
@@ -182,7 +184,7 @@ font-size: 16px;
     margin-left: 4px;
     margin-right: 4px;
   }
-  .heroShowcase {
+  .showcase {
     margin: 50px auto;
   }
 }
@@ -190,7 +192,7 @@ font-size: 16px;
   .showcaseImage {
     margin-left: 0;
   }
-  .heroShowcase {
+  .showcase {
     margin: 20px auto;
   }
    .heroineShowcase img {
