@@ -133,6 +133,7 @@ h5 {
 
 .heroine .fa-brands {
   margin: 0 0 66px 30px;
+font-size: 16px;
 }
 
 .heroine .pigeonlogo {
@@ -169,15 +170,14 @@ h5 {
   margin-bottom: 200px;
   object-fit: cover;
   min-width: 100%;
-
 }
 .showcaseImage {
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 /*  */
 
-@media (min-width: 1000px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .showcaseImage {
     margin-left: 4px;
     margin-right: 4px;
@@ -186,21 +186,35 @@ h5 {
     margin: 50px auto;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
   .showcaseImage {
     margin-left: 0;
   }
   .heroShowcase {
     margin: 20px auto;
   }
+   .heroineShowcase img {
+    margin-bottom: 60px;
+  }
 }
 /*  */
-@media (min-width: 500px) and (max-width: 1000px) {
+@media (max-width: 768px) {
+   .heroine  {
+   text-align: center;
+   }
+   .favpigeon{
+      display: block;
+margin: 32px auto 76px;  
+   }
+ 
+}
+/*  */
+@media (min-width: 576px) and (max-width: 992px) {
   .hero {
     padding: 90px 40px 120px 40px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .hero h1 {
     font-size: 56px;
   }
@@ -217,4 +231,9 @@ h5 {
   .hero {
     padding: 65px 0px 45px 0px;
   }
+
+  .heroine h2{
+   font-size: 50px
+  }
+
 }
