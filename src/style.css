@@ -1,6 +1,6 @@
 :root {
   --buttonColor: #272142;
-  --backgroundColor: #1b1b1b;
+  --backgroundColor: #000000;
   --highlightcolor: #f65282;
   --headingFontFamily: "Montserrat", sans-serif;
 }
@@ -60,13 +60,34 @@ body {
   min-width: 100%;
   object-fit: cover;
 }
-
+/* nav */
+.brand {
+  max-width: 300px;
+  max-height: 45px;
+}
+ul {
+  padding: 0;
+}
+nav {
+  background-color:  #161616;
+  padding: 41px 0 15px 0;
+}
+nav li {
+  font-weight: 300;
+  display: inline;
+  list-style: none;
+  line-height: 45px;
+  margin-left: 35px;
+}
+nav li.active {
+  font-weight: 600;
+}
 /* hero */
 .hero {
   background-image: url("/pigeons/pigeon19.jpg");
   background-size: cover;
   text-align: center;
-  padding: 140px 40px 210px 40px;
+  padding: 140px 40px 310px 40px;
 }
 
 .hero h2 {
@@ -107,7 +128,7 @@ body {
 /*  */
 .heroine {
   background-size: cover;
-  padding: 140px 0 100px 0;
+  padding: 10px 0 100px 0;
   margin: 0 0 0 0;
 }
 
@@ -176,12 +197,16 @@ body {
   .showcaseImageContainer {
     margin-left: 0;
   }
+  
+
   .showcase {
     margin: 20px auto;
   }
   .heroineShowcase img {
     margin-bottom: 60px;
   }
+ 
+ 
 }
 /*  */
 @media (max-width: 768px) {
@@ -198,8 +223,24 @@ body {
   .hero {
     padding: 90px 40px 120px 40px;
   }
+    .heroine {
+      padding: 60px 0 80px 0;
+    
+  }
+  nav li {
+    margin-left: 20px;
+  }
+  nav {
+    padding: 24px 0 7px 0;
+  } .contact {
+  margin-top: 70px;
+ 
+}
 }
 @media (max-width: 576px) {
+  .hero {
+    padding: 65px 0px 45px 0px;
+  }
   .hero h1 {
     font-size: 56px;
   }
@@ -213,11 +254,27 @@ body {
     font-size: 12px;
     padding: 15px 26px;
   }
-  .hero {
-    padding: 65px 0px 45px 0px;
-  }
 
+  .heroine {
+    padding: 20px 0 60px 0;
+  }
   .heroine h2 {
     font-size: 50px;
   }
+  nav li {
+    margin-left: 10px;
+  }
+  nav {
+    padding: 10px 0 0 0;
+  }
+
+  .contact {
+  margin-top: 40px;
+ 
+}
+.contactheadline{
+
+font-size: 50px;
+
+}
 }

@@ -31,22 +31,47 @@
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
+    <!-- nav -->
+    <nav>
+      <div class="container d-flex justify-content-between">
+        <a href="/about.html" class="link">
+          <img src="pigeons/brand.png" alt="" class="brand d-none d-md-block" />
+          <img
+            src="pigeons/brand-small.png"
+            class="brand d-block d-md-none"
+            alt=""
+          />
+        </a>
+
+        <ul>
+          <a href="/index.html" class="link"> <li>Home</li></a>
+          <a href="/about.html" class="link"> <li>About</li></a>
+
+          <a href="/gallery.html" class="link"> <li>Gallery</li></a>
+          <a href="/contact.html" class="link">
+            <li class="active">Contact</li></a
+          >
+        </ul>
+      </div>
+    </nav>
+
     <!-- body -->
-    <h1 class="headline text-center mt-5">GET IN TOUCH</h1>
+    <h1 class="headline contactheadline text-center mt-5">GET IN TOUCH</h1>
     <div class="contact text-center">
       <h5 class="highlightText">ADDRESS</h5>
       <p class="mb-5">
-        <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; SE8 Deptford, London
+        <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; SE8 Deptford,
+        London
       </p>
       <h5 class="highlightText">EMAIL</h5>
-      <p  >
+      <p>
         <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;
         <a href="mailto:nagengasteva@gmail.com" class="link"
           >nagengasteva@gmail.com</a
         >
       </p>
       <h5 class="mt-5 highlightText">LinkedIn</h5>
-      <p  >
+      <p>
         <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;
 
         <a
@@ -56,13 +81,7 @@
         >
       </p>
     </div>
-    <!-- link to other pages -->
-    <div class="links">
-      <a href="/index.html">home</a>
-      <a href="/about.html">About</a>
-      <a href="/contact.html">contact</a>
-      <a href="/gallery.html">gallery</a>
-    </div>
+    
     <!-- Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
