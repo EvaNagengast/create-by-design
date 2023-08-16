@@ -192,7 +192,7 @@ nav li.active {
 }
 footer {
   background-color: #161616;
-  padding: 25px 0px 10px 40px;
+  padding: 25px 0px 10px 0;
   font-weight: 300;
   line-height: 45px;
 }
