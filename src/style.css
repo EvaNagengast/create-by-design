@@ -185,8 +185,11 @@ nav li.active {
   font-size: 18px;
   line-height: 40px;
 }
-/* footer */
 
+/* footer */
+.gitLink{
+  opacity: 40%;
+}
 footer {
   background-color: #161616;
   padding: 25px 0px 10px 40px;
