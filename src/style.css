@@ -1,6 +1,6 @@
 :root {
   --buttonColor: #272142;
-  --backgroundColor: #000000;
+  --backgroundColor: #121111;
   --highlightcolor: #f65282;
   --headingFontFamily: "Montserrat", sans-serif;
 }
@@ -63,14 +63,14 @@ body {
 /* nav */
 .brand {
   max-width: 300px;
-  max-height: 45px;
+  max-height: 55px;
 }
 ul {
   padding: 0;
 }
 nav {
   background-color: #161616;
-  padding: 41px 0 15px 0;
+  padding: 31px 0 15px 0;
 }
 nav li {
   font-weight: 300;
@@ -87,12 +87,12 @@ nav li.active {
   background-image: url("/pigeons/pigeon19.jpg");
   background-size: cover;
   text-align: center;
-  padding: 140px 40px 310px 40px;
+  padding: 170px 40px 310px 40px;
 }
 
 .hero h2 {
   max-width: 460px;
-  margin: 25px auto 48px;
+  margin: 40px auto 62px;
 }
 
 /* showcase */
@@ -132,7 +132,10 @@ nav li.active {
   padding: 0 0 100px 0;
   margin: 0 0 0 0;
 }
-
+.profilepicture{
+  filter:opacity(70%) grayscale(1);
+  
+}
 .heroine h1 {
   margin-top: 30px;
 }
@@ -170,24 +173,21 @@ nav li.active {
 /* heroine showcase */
 .heroineShowcase img {
   height: 280px;
- 
- 
 }
-.heroineShowcase  {
- margin: 0 auto 80px;
- padding: 0 60px 0 60px
- 
+.heroineShowcase {
+  margin: 0 auto 80px;
+  padding: 0 60px 0 60px;
 }
 
 /* contact */
 .contact {
-  margin : 140px 0 80px 0;
+  margin: 140px 0 80px 0;
   font-size: 18px;
   line-height: 40px;
 }
 
 /* footer */
-.gitLink{
+.gitLink {
   opacity: 40%;
 }
 footer {
@@ -213,9 +213,9 @@ footer {
   }
 
   .showcase {
-    margin: 20px auto; padding: 0
+    margin: 20px auto;
+    padding: 0;
   }
- 
 
   .heroineShowcase img {
     margin-bottom: 60px;
@@ -232,7 +232,6 @@ footer {
   }
 }
 
-
 /*  */
 @media (min-width: 576px) and (max-width: 992px) {
   .hero {
@@ -245,7 +244,7 @@ footer {
     margin-left: 20px;
   }
   nav {
-    padding: 24px 0 7px 0;
+    padding: 14px 0 7px 0;
   }
   .contact {
     margin-top: 70px;
@@ -279,7 +278,7 @@ footer {
     margin-left: 10px;
   }
   nav {
-    padding: 10px 0 0 0;
+    padding: 0 0 0 0;
   }
 
   .contact {
